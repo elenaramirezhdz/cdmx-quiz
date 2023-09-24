@@ -23,19 +23,27 @@
   </head>
 
   <body>
-    <h1 class="heading">CDMX - Mexico City Quiz</h1>
-
-    <div>
-      <h2>What are the best touristic zones in Mexico City?</h2>
-    </div>
-    <div>
-      <div>1 - Polanco, Coyacan, Lomas de Bezares</div>
-      <div>2 - Roma Norte, Condesa, Polanco, Coyacan</div>
-    </div>
-    <div>
-      <div>3 - Oasis, Tacuba, Padierna, Polanco</div>
-      <div>4 - Iztaccihuatl, Bosque de las Lomas</div>
-    </div>
+    <div class="background-image"></div>
+    <div class="quiz-container">
+      <h1>Mexico City Quiz</h1>
+    <div class="main">
+        <!-- Quiz elements-->
+        <div id="game-container" class="game-box hide">
+            <!--Questions will come from the Java Script file-->
+            <div id="question">Question</div>
+            <!--Answers wull come from the Java Script file-->
+            <div id="answer-buttons" class="btn-grid">
+                <button class="btn">Answer 1</button>
+                <button class="btn">Answer 2</button>
+                <button class="btn">Answer 3</button>
+                <button class="btn">Answer 4</button>
+            </div>
+            <!--Scoreboard to show the score so far in the quiz-->
+            <div class="score-board">
+                <div id=total-score>Score:<div id="score">0</div>out of<div id="total-answered">0</div>
+                </div>
+            </div>
+        </div>
 
     <script src="assets/js/script.js"></script>
   </body>
