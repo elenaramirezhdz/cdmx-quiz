@@ -4,6 +4,7 @@ const scoreElement = document.getElementById('score');
 const totalAnsweredElement = document.getElementById('total-answered');
 
 
+
 const questions = [
     {
         question: 'What are the best touristic zones in Mexico City?',
