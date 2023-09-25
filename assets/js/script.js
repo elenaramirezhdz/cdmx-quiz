@@ -104,9 +104,9 @@ function checkAnswer(isCorrect, button) {
     totalAnswered++;
     if (isCorrect) {
         score++;
-        button.style.backgroundColor = '#73FE81'; // Correct answer background color green
+        button.style.backgroundColor = '#16a184'; // Correct answer background color green
     } else {
-        button.style.backgroundColor = '#FF7393'; // Incorrect answer background color red
+        button.style.backgroundColor = '#e32d3c'; // Incorrect answer background color red
     }
 
     button.disabled = true; // Disable the button after answering
