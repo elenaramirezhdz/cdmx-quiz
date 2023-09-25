@@ -11,7 +11,7 @@ CDMX Quiz is a project using JavaScript, HTML and CSS. In this project there are
 I'll describe my project more in detail for you. Mexico is a very colorful country, so I used bright colors to make this brand design and to highlight the logo, Mexican flag, on the bright green yellow background. Especially rose-magenta colors, for example, there are buildings of these colors. It also reminds me of bugambilia flowers in Mexico.
 
 ![Branding Colors](media/website-colors.png)
-![Logo Colors and Correct and Incorrect Answers] (media/flag-colors-answers.png)
+![Logo Colors and answers](media/flag-colors-answers.png)
 
 ### Existing Features
 
