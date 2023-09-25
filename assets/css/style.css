@@ -47,6 +47,12 @@ h1 {
     text-align: center;
     /* Center the text within buttons */
     border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.btn:hover {
+    background-color: white;
 }
 
 .score-board {
