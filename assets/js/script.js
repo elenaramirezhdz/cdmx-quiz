@@ -87,8 +87,7 @@ function setNextQuestion() {
 function resetButtonColors() {
     const buttons = Array.from(answerButtons.children);
     buttons.forEach(button => {
-        button.classList.remove('correct');
-        button.classList.remove('incorrect');
+        button.style.backgroundColor = ''; // Reset button background color
         button.disabled = false;
     });
 }
@@ -105,9 +104,9 @@ function checkAnswer(isCorrect, button) {
     totalAnswered++;
     if (isCorrect) {
         score++;
-        button.classList.add('correct');
+        button.style.backgroundColor = '#16a184'; // Correct answer background color green
     } else {
-        button.classList.add('incorrect');
+        button.style.backgroundColor = '#e32d3c'; // Incorrect answer background color red
     }
 
     button.disabled = true; // Disable the button after answering
