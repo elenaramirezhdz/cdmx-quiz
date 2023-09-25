@@ -15,11 +15,6 @@ body {
     background-color: greenyellow;
 }
 
-.btn {
-    background-color: yellow;
-    width: 400px;
-}
-
 h1 {
     text-align: center;
     padding-top: 2em;
@@ -35,14 +30,22 @@ h1 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     /* 2 columns */
-    grid-template-rows: repeat(2, 1fr);
-    /* 2 rows */
     grid-gap: 10px;
     /* Adjust the gap between grid items as needed */
     justify-items: center;
     /* Center horizontally */
     align-items: center;
     /* Center vertically */
+}
+
+.btn {
+    background-color: yellow;
+    width: 100%;
+    /* Make buttons take up the full width of their columns */
+    padding: 10px;
+    /* Add padding for spacing within buttons */
+    text-align: center;
+    /* Center the text within buttons */
 }
 
 .score-board {
