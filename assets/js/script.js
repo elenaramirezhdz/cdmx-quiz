@@ -1,10 +1,3 @@
-const questionElement = document.getElementById('question');
-const answerButtons = document.getElementById('answer-buttons');
-const scoreElement = document.getElementById('score');
-const totalAnsweredElement = document.getElementById('total-answered');
-
-
-
 const questions = [
     {
         question: 'What are the best touristic zones in Mexico City?',
@@ -29,7 +22,7 @@ const questions = [
         answers: [
             { text: 'Gandhi, Peltre', correct: false },
             { text: 'Sotano, Gandhi', correct: true },
-            { text: 'Frida Cahlo, Garibaldi', correct: false },
+            { text: 'Frida Kahlo, Garibaldi', correct: false },
             { text: 'Sears, Soriana', correct: false },
         ]
     },
@@ -62,6 +55,11 @@ const questions = [
     },
 ];
 
+const questionElement = document.getElementById('question');
+const answerButtons = document.getElementById('answer-buttons');
+const scoreElement = document.getElementById('score');
+const totalAnsweredElement = document.getElementById('total-answered');
+
 let currentQuestionIndex = 0;
 let score = 0;
 let totalAnswered = 0;
@@ -91,6 +89,7 @@ function resetButtonColors() {
     buttons.forEach(button => {
         button.classList.remove('correct');
         button.classList.remove('incorrect');
+        button.disabled = false;
     });
 }
 
@@ -98,18 +97,20 @@ function displayAnswers(answers) {
     const buttons = Array.from(answerButtons.children);
     buttons.forEach((button, index) => {
         button.innerText = answers[index].text;
-        button.onclick = () => checkAnswer(answers[index].correct);
+        button.onclick = () => checkAnswer(answers[index].correct, button);
     });
 }
 
-function checkAnswer(isCorrect) {
+function checkAnswer(isCorrect, button) {
     totalAnswered++;
     if (isCorrect) {
         score++;
-        answerButtons.children[currentQuestionIndex].classList.add('correct');
+        button.classList.add('correct');
     } else {
-        answerButtons.children[currentQuestionIndex].classList.add('incorrect');
+        button.classList.add('incorrect');
     }
+
+    button.disabled = true; // Disable the button after answering
 
     scoreElement.innerText = score;
     totalAnsweredElement.innerText = totalAnswered;
