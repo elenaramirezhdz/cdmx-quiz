@@ -28,19 +28,20 @@ h1 {
 
 .btn-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, auto);
     /* 2 columns */
-    grid-gap: 10px;
-    /* Adjust the gap between grid items as needed */
+    grid-gap: 15px;
+    /* Adjust the gap between grid items */
     justify-items: center;
     /* Center horizontally */
     align-items: center;
     /* Center vertically */
+    margin: auto;
 }
 
 .btn {
     background-color: #FF74F1;
-    width: 100%;
+    width: 70%;
     /* Make buttons take up the full width of their columns */
     padding: 10px;
     /* Add padding for spacing within buttons */
