@@ -59,7 +59,8 @@ const questions = [
             { text: 'Parque Hundido', correct: false },
             { text: 'Xochimilco', correct: false },
         ]
-    },;
+    },
+];
 
 let currentQuestionIndex = 0;
 let score = 0;
