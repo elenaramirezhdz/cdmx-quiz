@@ -2,13 +2,16 @@
 
 This is a quiz about Mexico City for everybody who would like to get some information about Mexico City. I've been living in Mexico City and I like many places there. Besides that there is a big community for foreigners and expats there. This quiz is good for those who would like to go to Mexico City or maybe already moved there and would like to get some tips. Mexico City is called CDMX, so I used it as a name of the project to make it short. 
 
-CDMX Quiz JavaScript concepts but also maths. Love Maths is a fully responsive JavaScript maths game that will allow users to add, subtract, multiply and divide numbers.
+CDMX Quiz is a project using JavaScript, HTML and CSS. In this project there are 6 questions. When the user answers the question correctly, the button turns green, when the user answers incorrectly, the button turns red. I also chose brand colors, you can read more about Project Brand color below and see the images. 
 
 ![Responsice Mockup](media/love_maths_mockup.png)
 
 ## Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+I'll describe my project more in detail for you. Mexico is a very colorful country, so I used bright colors to make this brand design and to highlight the logo, Mexican flag, on the bright green yellow background. Especially rose-magenta colors, for example, there are buildings of these colors. It also reminds me of bugambilia flowers in Mexico.
+
+![Branding Colors](media/website-colors.png)
+![Logo Colors and Correct and Incorrect Answers] (media/flag-colors-answers.png)
 
 ### Existing Features
 
