@@ -15,23 +15,22 @@ I'll describe my project more in detail for you. Mexico is a very colorful count
 
 ### Existing Features
 
-- __The Love Maths Logo and Heading__
+- __The CDMX Quiz Logo and Heading__
 
-  - Featured at the top of the page, the Love Maths logo and heading is easy to see for the user. Upon viewing the page, the user will be able to see the name of the game.
+  - The logo is on the left at the top of the page, it's a Mexican flag, so everyone who knows it, will recognize it. I made it round, because I wanted to have a round logo. I used a Mexican flag on purpose so that it's clear at first sight that this is a project about Mexico. The heading is centered, the same as the quiz below to make everything more harmonious and user-friendly. 
 
-![Logo](media/love_maths_logo.png)
+![Logo](media/flag-readme.jpg)
 
 - __The Game Area__
 
-  - This section will allow the user to play the maths game. The user will be able to easily see icons for addition,  subtraction, multiplication, and division games.
-  - The user will be able to select the type of maths game they will be playing by clicking on the different icons.
+  - This section where the user answers the quiz questions. The user will click an answer and if it's correct it will turn green, if it's incorrect it will turn red.
+  - The user will get 1 score for each correct answer. At the end of the game the user will get an alert message with the total number of scores the user got for the quiz. 
 
-![Game](media/love_maths_icons.png)
 
 - __The Question section__
 
-  - The question section is where the user will be able to see the elementary arithmetic question to answer as part of the game. The user will be able answer the questions in the answer box provide
-  - The user will be able to submit their answer and a pop-up will make it known to the user if they answered correctly.
+  - The question section is where the user will read the questions. There are 6 questions. There are 4 answer buttons for each question 
+  - The user can click on a button with an answer, that the user chooses. A correct answer button will turn green, the incorrect answer button will turn red when clicked. 
 
 ![Question](media/love_maths_question.png)
 
