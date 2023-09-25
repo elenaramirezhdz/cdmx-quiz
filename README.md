@@ -32,21 +32,17 @@ I'll describe my project more in detail for you. Mexico is a very colorful count
   - The question section is where the user will read the questions. There are 6 questions. There are 4 answer buttons for each question 
   - The user can click on a button with an answer, that the user chooses. A correct answer button will turn green, the incorrect answer button will turn red when clicked. 
 
-![Question](media/love_maths_question.png)
+![Questions and Game Area](media/game-area.png)
 
 - __The Score Area__
 
-  - This section will allow the user to see exactly how many correct and incorrect answers they have provided.
+  - This section will show the number of correct answers and the number of questions answered to the user.
 
-![score](media/love_maths_answer.png)
-
-For some/all of your features, you may choose to reference the specific project files that implement them.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+![score](media/score.png)
 
 ### Features Left to Implement
 
-- Another feature idea
+- It's always possible to experiment with more features. 
 
 ## Testing
 
