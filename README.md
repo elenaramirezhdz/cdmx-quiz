@@ -46,13 +46,33 @@ I'll describe my project more in detail for you. Mexico is a very colorful count
 
 ## Testing
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+I did different tests to make sure that the quiz project is user-friendly and easy to understand.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+I added cursor pointer and hover color to the buttons, so that the user can see that he/she hovers and click the button and I used green color for correct answer and red color for incorrect answer when the user clicks the answer button. 
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+![Hover color](media/hover-color.png)
+![Correct answer](media/correct-answer.png)
+![Incorrect answer](media/incorrect-answer.png)
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+There is a score alert at the end of the game, where the user can see the score.
+
+![Score alert](media/score-alert.png)
+
+I checked the quiz on different devices. Here is an example of a mobile view:
+
+![Mobile view](media/mobile-test.png)
+
+Here is an iPad view as an example:
+
+![iPad view](media/ipad-test.png)
+
+And a laptop example:
+
+![Laptop view](media/laptop-view.png)
+
+I've tried it in different browsers and it works well. 
+
+I had to fix the bugs, when I was trying to change the button colors. The best idea was to change the text color to white when hovering. I also tried out some other colors. 
 
 ### Validator Testing
 
