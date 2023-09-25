@@ -46,6 +46,7 @@ h1 {
     /* Add padding for spacing within buttons */
     text-align: center;
     /* Center the text within buttons */
+    border-radius: 15px;
 }
 
 .score-board {
