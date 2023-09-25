@@ -1,0 +1,47 @@
+/* Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Playfair Display', serif;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: greenyellow;
+}
+
+.btn {
+    background-color: yellow;
+    width: 400px;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 2em;
+}
+
+#question {
+    text-align: center;
+    padding: 3em;
+}
+
+.btn-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* 2 columns */
+    grid-template-rows: repeat(2, 1fr);
+    /* 2 rows */
+    grid-gap: 10px;
+    /* Adjust the gap between grid items as needed */
+    justify-items: center;
+    /* Center horizontally */
+    align-items: center;
+    /* Center vertically */
+    grid-gap: 15px;
+    /* 20px gap between grid items */
+}
