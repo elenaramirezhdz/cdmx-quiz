@@ -105,8 +105,10 @@ function checkAnswer(isCorrect, button) {
     if (isCorrect) {
         score++;
         button.style.backgroundColor = '#16a184'; // Correct answer background color green
+        button.style.color = 'white'; // Change text color to white
     } else {
         button.style.backgroundColor = '#e32d3c'; // Incorrect answer background color red
+        button.style.color = 'white'; // Change text color to white
     }
 
     button.disabled = true; // Disable the button after answering
