@@ -119,4 +119,5 @@ The live link can be found here - <https://elenaramirezhdz.github.io/cdmx-quiz/>
 ### Media
 
 - I used a flaticon icon for my project logo <https://www.flaticon.com/free-icons/mexican>, also for a favicon.
+- I used a Freepik cactus icon to place under the score button <https://de.freepik.com/icon/wueste_2055505>
   
