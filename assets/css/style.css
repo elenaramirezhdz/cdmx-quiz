@@ -70,3 +70,11 @@ h1 {
     justify-items: center;
     padding: 3em;
 }
+
+#score-btn {
+    background-color: #16a184;
+    border-radius: 95%;
+    width: 10%;
+    height: 15%;
+    color: white;
+}
