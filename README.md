@@ -88,7 +88,7 @@ I had to fix the bugs, when I was trying to change the button colors. The best i
     - Largest function has 10 statements in it, while the median is 2.
     - The most complex function has a cyclomatic complexity value of 2 while the median is 1.
 
-More tests in TESTING.md <TESTING.md>
+More tests are described in TESTING.md 
 
 ### Unfixed Bugs
 
