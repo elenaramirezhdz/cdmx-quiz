@@ -60,9 +60,9 @@ Here are the results.
 
 ### Mobile Results
 
-Each page is achieving a score of 100 for the last three categories. The performance category is achieving a score of 98 for the first three pages and a score of 99 on the 404 & 500 page.
+I checked the page on mobile and it had a high rating. <https://pagespeed.web.dev/>
 
-![index.html](testing/lighthouse/lighthouse-mobile-index.webp)
+![index.html](media/mobile-test-speed.png)
 
 - - -
 
