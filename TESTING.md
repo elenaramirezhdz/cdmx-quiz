@@ -74,22 +74,22 @@ I checked the page on mobile and it had a high rating. <https://pagespeed.web.de
 
 | Goals | How are they achieved? |
 | :--- | :--- |
-| I want to take part in a pub quiz online and improve my general knowledge. I want to be able to play at any time, anywhere. | The Quiz Arms pulls general knowledge quiz questions from a large variety of topics, much like a pub quiz would do. The site is available for use whenever is convenient to the user. |
-| I want the site to be responsive to my device. | I have developed the site with responsiveness in mind. |
-| I want the site to be easy to navigate. | Buttons are used throughout the site for navigation, much like a mobile app. As the site is like a mobile app - I decided that I didn't want to add a navigation bar or footer, as these would make the site look more like a traditional webpage. The page title also acts as a link to the home page.  |
+| I want to do a quiz about Mexico City, CDMX so that the user can learn about some places there. | CDMX Quiz provides information about nice place places in Mexico City |
+| I want the site to be responsive to my device. | I made a responsive site. |
+| I want the site to be easy to navigate. | I used questions and clickable buttons with the answers, I also used pointer cursor, it's easy for the user to click on the answer and if it's correct, it will be green and if it's incorrect, it will be red. There is a score board that shows the score.  |
 
 `Returning Visitors`
 
 |  Goals | How are they achieved? |
 | :--- | :--- |
-| I want to be able to choose a level of difficulty that I feel is appropriate for me, based on my experience from my first visit to the site. | Users are able to select their own level of difficulty before the game begins. Once they have played they are free to select a different level of difficulty for subsequent games. |
+| I want to make it easy for the users to learn about some places in Mexico City. | Users can learn about nice places in Mexico City by answering the questions. |
 
 `Frequent Visitors`
 
 | Goals | How are they achieved? |
 | :--- | :--- |
-| I want to be able to adjust the difficulty level to keep improving my knowledge. | Users are able to select their own level of difficulty before the game begins. Once they have played they are free to select a different level of difficulty for subsequent games. |
-| I want to be able to log my high scores to see how I am performing. | Users of the site are able to log their high scores to the high scores page. The top ten results will be displayed. |
+| I want this quiz to be easy to do for the users. | The users can do the quiz as many times as they want and remember the correct answers. |
+| There are just 6 questions, so it won't be too much information for the user. | At the end of the quiz game the user can see the total number of scores in an alert message. |
 
 - - -
 
