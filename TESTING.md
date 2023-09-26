@@ -1,8 +1,8 @@
 # CDMX Quiz -  Testing
 
-![CDMX Quiz Arms shown on a variety of screen sizes](assets/images/the-quiz-arms.png)
+![CDMX Quiz shown on a variety of screen sizes](media/responsive-devices.png)
 
-Visit the deployed site: [The Quiz Arms](https://kera-cudmore.github.io/TheQuizArms/)
+Visit the deployed site: [CDMX Quiz](https://elenaramirezhdz.github.io/cdmx-quiz/)
 
 - - -
 
@@ -20,13 +20,9 @@ Visit the deployed site: [The Quiz Arms](https://kera-cudmore.github.io/TheQuizA
     - [Testing User Stories](#testing-user-stories)
     - [Full Testing](#full-testing)
 
-Testing was ongoing throughout the entire build. I utilised Chrome developer tools whilst building to pinpoint and troubleshoot any issues as I went along.
+I utilised Chrome developer tools to build this quiz site and to check my ideas and to see if they work.
 
-During development I made use of google developer tools to ensure everything was working correctly and to assist with troubleshooting when things were not working as expected.
-
-I utilised the console in the developer tools to work through small sections of JavaScript and ensure that the code was working, and also to troubleshoot where issues were.
-
-I have gone through each page using google chrome developer tools & Firefox inspector tool to ensure that each page is responsive on a variety of different screen sizes and devices.
+I checked the resposive funcionality of my quiz site using Google Developer Tools to see how it works on different screen sizes and devices.
 
 - - -
 
@@ -36,11 +32,7 @@ I have gone through each page using google chrome developer tools & Firefox insp
 
 [W3C](https://validator.w3.org/) was used to validate the HTML on all pages of the website. It was also used to validate the CSS.
 
-* [index.html](testing/w3/w3-index.png) - Passed.
-* [game.html](testing/w3/w3-game.png) - No errors, 1 Warning. The warning is for an empty H2 tag. This is where the question is inserted using jQuery.
-* [highscores.html](testing/w3/w3-highscores.png) - Passed.
-* [404.html](testing/w3/w3-404.png) - Passed.
-* [500.html](testing/w3/w3-500.png) - Passed.
+* [index.html](testing/w3/w3-index.png) - Passed, though there was just one thing that I used a button for the score. I decided nevertheless to use my idea, because I like its look.
 
 * [style.css](testing/w3/w3-css.png) - Passed, no errors found.
 
@@ -48,11 +40,11 @@ I have gone through each page using google chrome developer tools & Firefox insp
 
 ### JavaScript Validator
 
-[jshint](https://jshint.com/) was used to validate the JavaScript.
-
-* [javascript.js](testing/jshint/jshint-javascript.png) - Passed.
-* [game.js](testing/jshint/jshint-game.png) - Passed with one warning. Async functions are only available in ES8. It also stated that there are 4 unused variables, however these are being used.
-* [highscores.js](testing/jshint/jshint-highscores.png) - Passed.
+[script.js](https://jshint.com/) was used to validate the JavaScript. Passed. I got the following message: 
+- There are 9 functions in this file.
+- Function with the largest signature take 2 arguments, while the median is 0.
+- Largest function has 10 statements in it, while the median is 2.
+- The most complex function has a cyclomatic complexity value of 2 while the median is 1.
 
 - - -
 
@@ -62,31 +54,15 @@ I used Lighthouse within the Chrome Developer Tools to test the performance, acc
 
 ### Desktop Results
 
-All pages of the site are achieving a score of 100 across the 4 categories.
+Here are the results.
 
-![index.html](testing/lighthouse/lighthouse-desktop-index.webp)
-
-![game.html](testing/lighthouse/lighthouse-desktop-game.webp)
-
-![highscores.html](testing/lighthouse/lighthouse-desktop-highscores.webp)
-
-![404.html](testing/lighthouse/lighthouse-desktop-404.webp)
-
-![500.html](testing/lighthouse/lighthouse-desktop-500.png)
+![index.html](media/lighthouse-test.png)
 
 ### Mobile Results
 
 Each page is achieving a score of 100 for the last three categories. The performance category is achieving a score of 98 for the first three pages and a score of 99 on the 404 & 500 page.
 
 ![index.html](testing/lighthouse/lighthouse-mobile-index.webp)
-
-![game.html](testing/lighthouse/lighthouse-mobile-game.webp)
-
-![highscores.html](testing/lighthouse/lighthouse-mobile-highscores.webp)
-
-![404.html](testing/lighthouse/lighthouse-mobile-404.webp)
-
-![500.html](testing/lighthouse/lighthouse-mobile-500.png)
 
 - - -
 
