@@ -74,7 +74,7 @@ I checked the page on mobile and it had a high rating. <https://pagespeed.web.de
 
 | Goals | How are they achieved? |
 | :--- | :--- |
-| I want to do a quiz about Mexico City, CDMX so that the user can learn about some places there. | CDMX Quiz provides information about nice place places in Mexico City |
+| I want to do a quiz about Mexico City, CDMX so that the user can learn about some places there. | CDMX Quiz provides information about nice place places in Mexico City. |
 | I want the site to be responsive to my device. | I made a responsive site. |
 | I want the site to be easy to navigate. | I used questions and clickable buttons with the answers, I also used pointer cursor, it's easy for the user to click on the answer and if it's correct, it will be green and if it's incorrect, it will be red. There is a score board that shows the score.  |
 
@@ -98,21 +98,17 @@ I checked the page on mobile and it had a high rating. <https://pagespeed.web.de
 Full testing was performed on the following devices:
 
 * Laptop:
-  * Macbook Pro 2021 14 inch screen
+  * Macbook Pro 2017 15 inch screen
 * Mobile Devices:
-  * iPhone 13 pro.
-  * iPhone 11 pro.
-  * Phone X.
+  * iPhone 12 pro.
+  * Galaxy Fold.
+  * Samsung Galaxy A51/71.
 
 Each device tested the site using the following browsers:
 
 * Google Chrome
 * Safari
 * Firefox
-
-Additional testing was taken by friends and family on a variety of devices and screen sizes. They reported no issues when playing.
-
-One tester in peer code review stated that the bottom of the play screen was cut off when testing on an iphone SE (2nd gen). I was unable to replicate this issue using google chrome developer tools.
 
 `Home Page`
 
