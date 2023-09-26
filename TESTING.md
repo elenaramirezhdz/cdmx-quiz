@@ -56,7 +56,7 @@ I used Lighthouse within the Chrome Developer Tools to test the performance, acc
 
 Here are the results.
 
-![index.html](media/lighthouse-test.png)
+![index.html](media/lighthouse-report.png)
 
 ### Mobile Results
 
