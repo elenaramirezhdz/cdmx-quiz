@@ -38,7 +38,7 @@ I'll describe my project more in detail for you. Mexico is a very colorful count
 
   - This section will show the number of correct answers and the number of questions answered to the user.
 
-![score](media/score.png)
+![score](media/score-area.png)
 
 ### Features Left to Implement
 
@@ -60,11 +60,11 @@ There is a score alert at the end of the game, where the user can see the score.
 
 I checked the quiz on different devices. Here is an example of a mobile view:
 
-![Mobile view](media/mobile-test.png)
+![Mobile view](media/mobile-view.png)
 
 Here is an iPad view as an example:
 
-![iPad view](media/ipad-test.png)
+![iPad view](media/ipad-view.png)
 
 And a laptop example:
 
