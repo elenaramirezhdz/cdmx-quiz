@@ -92,6 +92,16 @@ I had to fix the bugs, when I was trying to change the button colors. The best i
 
 There are no unfixed bugs.
 
+### Wireframes
+
+First I did a mockup in figma just to get an idea, then I got new ideas and applied it in a more colorful way.
+
+![Ideas mockup in Figma](media/wireframe-ideas.png)
+
+## Typography
+
+I used Google Fonts, for headings I used Playfair Display, serif and for the body text I used Roboto, sans-serif, so it's a good combination of serif and sans-serif fonts. 
+
 ## Deployment
 
 I used GitHub pages to deploy the project.
