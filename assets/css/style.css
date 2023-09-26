@@ -73,8 +73,11 @@ h1 {
 
 #score-btn {
     background-color: #16a184;
-    border-radius: 95%;
-    width: 10%;
-    height: 15%;
+    border-radius: 15%;
     color: white;
+}
+
+#plant {
+    justify-items: center;
+    padding-top: 2em;
 }
