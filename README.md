@@ -4,7 +4,7 @@ This is a quiz about Mexico City for everybody who would like to get some inform
 
 CDMX Quiz is a project using JavaScript, HTML and CSS. In this project there are 6 questions. When the user answers the question correctly, the button turns green, when the user answers incorrectly, the button turns red. I also chose brand colors, you can read more about Project Brand color below and see the images. 
 
-![Responsice Mockup](media/love_maths_mockup.png)
+![Responsice Mockup](media/responsive-devices.png)
 
 ## Features
 
@@ -101,7 +101,7 @@ I used GitHub pages to deploy the project.
   - From the source section drop-down menu, select the Master Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-The live link can be found here - <https://code-institute-org.github.io/love-maths/>
+The live link can be found here - <https://elenaramirezhdz.github.io/cdmx-quiz/>
 
 ## Credits
 
